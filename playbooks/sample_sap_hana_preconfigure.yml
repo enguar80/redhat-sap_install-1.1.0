@@ -1,0 +1,5 @@
+---
+- hosts: all
+  roles:
+    - role: sap_general_preconfigure
+    - role: sap_hana_preconfigure
