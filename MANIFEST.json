@@ -1,0 +1,39 @@
+{
+ "collection_info": {
+  "namespace": "redhat",
+  "name": "sap_install",
+  "version": "1.1.0",
+  "authors": [
+   "Bernd Finger <bfinger@redhat.com>",
+   "Sean Freeman <sean.freeman@uk.ibm.com>",
+   "Rainer Leber <rainer.leber@sva.de>",
+   "Markus Koch <mkoch@redhat.com>",
+   "Markus Moster <mmoster@redhat.com>",
+   "Janine Fuchs <jfuchs@redhat.com>"
+  ],
+  "readme": "README.md",
+  "tags": [
+   "database",
+   "application",
+   "sap"
+  ],
+  "description": "Collection of Ansible Roles for SAP software installation on Red Hat Enterprise Linux",
+  "license": [
+   "Apache-2.0"
+  ],
+  "license_file": null,
+  "dependencies": {},
+  "repository": "https://github.com/sap-linuxlab/community.sap_install",
+  "documentation": "https://github.com/sap-linuxlab/sap-linuxlab.github.io/blob/master/README.md",
+  "homepage": "https://sap-linuxlab.github.io",
+  "issues": "https://github.com/sap-linuxlab/community.sap_install/issues"
+ },
+ "file_manifest_file": {
+  "name": "FILES.json",
+  "ftype": "file",
+  "chksum_type": "sha256",
+  "chksum_sha256": "142b92d5933a88f5e4f2864ce314f74c07f997febeafaa56605b3f90fc94fdaa",
+  "format": 1
+ },
+ "format": 1
+}
