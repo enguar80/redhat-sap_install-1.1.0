@@ -1,0 +1,10 @@
+---
+- hosts: all
+  vars:
+    sap_preconfigure_assert: yes
+    sap_preconfigure_assert_ignore_errors: yes
+    sap_netweaver_preconfigure_assert: yes
+    sap_netweaver_preconfigure_assert_ignore_errors: yes
+  roles:
+    - role: sap_general_preconfigure
+    - role: sap_netweaver_preconfigure
